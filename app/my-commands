@@ -1,0 +1,15 @@
+ 1597  cd git-drill-1
+ 1598  git init
+ 1599  touch readme.md index.html style.css
+ 1600  git remote add origin https://github.com/cmission/git-drill-1.git
+ 1601  git add index.html
+ 1602  git status
+ 1603  git commit -m  "git-drill-1"
+ 1604  nano readme.md
+ 1605  git add -A
+ 1606  git reset
+ 1607  touch app.js
+ 1608  git add -A
+ 1609  git commit -m "buzz-your-girlfriend"
+ 1610  git log 
+ 1611  git push -u origin master
